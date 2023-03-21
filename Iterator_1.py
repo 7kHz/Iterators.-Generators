@@ -3,7 +3,7 @@ class FlatIterator:
         self.list_of_list = list_of_list
 
     def __iter__(self):
-        print('Вход в цикл')
+        # print('Вход в цикл')
         self.outer_counter = 0
         self.inner_counter = -1
         return self
